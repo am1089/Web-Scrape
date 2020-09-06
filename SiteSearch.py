@@ -29,18 +29,7 @@ while word == '':
     word = input('Enter a word:')
 
 links = "CLinksAll.txt"
-#links = 'CLinks.txt'
-#links2 = 'CLinks2.txt'
-#links3 = 'CLinks3.txt'
-#links4 = 'CLinks4.txt'
-#links5 = 'CLinks5.txt'
 
 All_Links = find_word(links, word)
-#All_Links2 = find_word(links2, word)
-#All_Links3 = find_word(links3, word)
-#All_Links4 = find_word(links4, word)
-#All_Links5 = find_word(links5, word)
 
-#Use_Links = All_Links + All_Links2 + All_Links3 + All_Links4 + All_Links5
-#pprint.pprint(Use_Links)
 pprint.pprint(All_Links)
