@@ -29,6 +29,7 @@ while word == '':
     word = input('Enter a word:')
 
 links = "CLinksAll.txt"
+#links = "Clinks.txt"
 
 All_Links = find_word(links, word)
 
